@@ -1,12 +1,12 @@
 # 🌟 (NeurIPS 2024) Few-Shot Adversarial Prompt Learning on Vision-Language Models 
 
-[YIwei Zhou](https://github.com/lionel-w2)$^1$, [Xiaobo Xia](https://xiaoboxia.github.io/)$^2$, [Zhiwei Lin](https://ac.bit.edu.cn/szdw/dsmd/sssds/znxxclykz/92d4c53eedf34a88897e80d4a86c873b.htm)\**$^1$, [Bo Han](https://bhanml.github.io/)$^3$, [Tongliang Liu](https://tongliang-liu.github.io/)\**$^2$ 
+[YIwei Zhou](https://github.com/lionel-w2)<sup>1</sup>, [Xiaobo Xia](https://xiaoboxia.github.io/)<sup>2</sup>, [Zhiwei Lin](https://ac.bit.edu.cn/szdw/dsmd/sssds/znxxclykz/92d4c53eedf34a88897e80d4a86c873b.htm)<sup>1*</sup>, [Bo Han](https://bhanml.github.io/)<sup>3</sup>, [Tongliang Liu](https://tongliang-liu.github.io/)<sup>2*</sup>
 
 ---
 
-$^1$ School of Automation, Beijing Institute of Technology  
-$^2$ Sydney AI Centre, University of Sydney  
-$^3$ Department of Computer Science, Hong Kong Baptist University  
+<sup>1</sup> School of Automation, Beijing Institute of Technology  
+<sup>2</sup> Sydney AI Centre, University of Sydney  
+<sup>3</sup> Department of Computer Science, Hong Kong Baptist University  
 
 \*Corresponding authors
 
