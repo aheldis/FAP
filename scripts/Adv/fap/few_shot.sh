@@ -4,10 +4,10 @@
 # CUDA_VISIBLE_DEVICES=0 bash scripts/Adv/fap/few_shot.sh caltech101 16 0
 
 ADV_TERM=cos
-EPS=1
-ALPHA=1
+EPS=2.0
+ALPHA=0.25
 TRAIN_ITER=2
-TEST_ITER=100
+TEST_ITER=20
 LAMBDA_1=1.5
 
 ATTACK_RELATED=adv_term-${ADV_TERM}_eps-${EPS}_alpha-${ALPHA}_train_iter-${TRAIN_ITER}_test_iter-${TEST_ITER}_lambda1-${LAMBDA_1}

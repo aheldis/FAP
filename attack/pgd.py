@@ -9,8 +9,8 @@ def clamp(X, lower_limit, upper_limit):
     return torch.max(torch.min(X, upper_limit), lower_limit)
 
 
-def attack_pgd(model, preprocessing, X, target, prompter=None, add_prompter=None, alpha=1,
-               attack_iters=2, epsilon=1, norm="l_inf",train_trades=False):
+def attack_pgd(model, preprocessing, X, target, prompter=None, add_prompter=None, alpha=0.25,
+               attack_iters=20, epsilon=2.0, norm="l_inf",train_trades=False):
     alpha=alpha/255.
     epsilon=epsilon/255.
     

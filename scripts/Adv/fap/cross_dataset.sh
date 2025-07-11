@@ -4,10 +4,10 @@
 # CUDA_VISIBLE_DEVICES=0 bash scripts/Adv/fap/cross_dataset.sh 0
 
 ADV_TERM=cos
-EPS=1
-ALPHA=1
+EPS=2.0
+ALPHA=0.25
 TRAIN_ITER=2
-TEST_ITER=100
+TEST_ITER=20
 LAMBDA_1=1.5
 
 
